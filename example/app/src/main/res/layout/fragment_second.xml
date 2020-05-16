@@ -9,38 +9,31 @@
     android:orientation="vertical"
     android:background="@color/screenBackground2"
     tools:context=".SecondFragment">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:gravity="center">
+
     <TextView
-        android:text ="Here is a random number between 0 and %d"
+        android:id="@+id/textview_header"
+        android:text ="@string/random_heading"
         android:fontFamily="sans-serif-condensed"
-        android:id="@+id/random_heading"
         android:textColor="@color/textColor"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         />
-    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center">
     <TextView
-        android:text ="R"
         android:id="@+id/textview_random"
+        android:text ="@string/r"
         android:textColor="@color/textColor"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         />
     </LinearLayout>
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"

@@ -44,7 +44,7 @@ class FirstFragment : Fragment() {
 
 
         view.button_next.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            //findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
             //R.id.action_FirstFragment_to_SecondFragment
         }
 
